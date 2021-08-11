@@ -39,10 +39,10 @@ class syntax_plugin_code_code extends DokuWiki_Syntax_Plugin {
      */
     function getInfo(){
       return array(
-        'author' => 'Christopher Smith',
-        'email'  => 'chris@jalakai.co.uk',
-        'date'   => '2008-08-13',
-        'name'   => 'Code Replacement Plugin',
+        'author' => 'Christopher Smith (original), Peppernose145 (forked)',
+        'email'  => 'no email @',
+        'date'   => '2021-08-11',
+        'name'   => 'Titleable Code Plugin',
         'desc'   => 'Replacement for Dokuwiki\'s own <code> handler, adds a title to the box.
                      Syntax: <code lang|title>, lang and title are optional. title does not support any dokuwiki markup.',
         'url'    => 'http://www.dokuwiki.org/plugin:code',

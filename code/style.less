@@ -1,0 +1,48 @@
+/*
+ * code plugin extension - style additions
+ *
+ * @author  Christopher Smith  chris@jalakai.co.uk
+ * @link    http://wiki.jalakai.co.uk/dokuwiki/doku.php/tutorials/codeplugin
+ */
+
+/* layout */
+/*div.code, div.file {
+  width: 92%;
+  margin: 1em auto;
+  border: 1px solid;
+  padding: 4px;
+}*/
+
+div.code p, div.file p {
+  font-size: 0.9em;
+  margin: 0;
+  padding: 2px;
+}
+/*
+div.dokuwiki div.code pre.code,
+div.dokuwiki div.file pre.file {
+  margin: 4px 0 0 0;
+}
+*/
+/* colours */
+div.code {
+  background: darken(@ini_background, 15%);
+}
+/*
+div.code p {
+  background: rgba(0,0,0,0);
+}*/
+
+div.file {
+  background: #e7f8e4;
+}
+
+div.file p {
+  background: #cbeeca;
+}
+
+div.dokuwiki div.file pre.file {
+  background: @ini_background;
+}
+
+/* end code plugin style additions */

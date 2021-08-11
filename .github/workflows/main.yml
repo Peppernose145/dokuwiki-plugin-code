@@ -35,4 +35,7 @@ jobs:
           echo Compressing...
           cd code
           zip -r - * > ../code-latest.zip
+          cd ..
+          git add code-latest.zip
+          git commit
           

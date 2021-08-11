@@ -1,0 +1,6 @@
+base    code
+author  Peppernose145
+email   no_email@anonymous
+date    2021-8-11
+name    Titleable Code Plugin
+desc    A plugin that lets you title code blocks and files by replacing <code> and <file> syntax.
